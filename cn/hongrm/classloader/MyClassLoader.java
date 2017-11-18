@@ -4,6 +4,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 
+/**
+ * 核心类加载器
+ * created by hongrm on 2017/11/18
+ */
 public class MyClassLoader extends ClassLoader {
     private String classpath;
     public MyClassLoader(String classpath){
